@@ -1,10 +1,11 @@
 import { Nav, Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "@/Styles/global.css"
 
 
 export default function Header() {
   return (
-    <Navbar className="bg-body-tertiary" data-bs-theme="dark">
+    <Navbar className="header" variant='dark'>
       <Navbar.Brand href="/">
       <img 
 
