@@ -29,7 +29,177 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Home() {\n    const [test_data, set_data] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({\n        \"test\": \"default\"\n    });\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)({\n        \"Home.useEffect\": ()=>{\n            fetch(\"/api/test\").then({\n                \"Home.useEffect\": (res)=>{\n                    res.json().then({\n                        \"Home.useEffect\": (data)=>{\n                            set_data({\n                                test: data.test\n                            });\n                        }\n                    }[\"Home.useEffect\"]);\n                }\n            }[\"Home.useEffect\"]);\n        }\n    }[\"Home.useEffect\"], []);\n    console.log(test_data.test);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n            children: test_data.test\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\pages\\\\index.js\",\n            lineNumber: 21,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\pages\\\\index.js\",\n        lineNumber: 20,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3NyYy9wYWdlcy9pbmRleC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBNEM7QUFFN0IsU0FBU0U7SUFDdEIsTUFBTSxDQUFDQyxXQUFVQyxTQUFTLEdBQUdILCtDQUFRQSxDQUNuQztRQUFDLFFBQU87SUFBUztJQUduQkQsZ0RBQVNBOzBCQUFDO1lBQ1JLLE1BQU0sYUFBYUMsSUFBSTtrQ0FBQyxDQUFDQztvQkFDdkJBLElBQUlDLElBQUksR0FBR0YsSUFBSTswQ0FBQyxDQUFDRzs0QkFDZkwsU0FBUztnQ0FDUE0sTUFBS0QsS0FBS0MsSUFBSTs0QkFDaEI7d0JBQ0Y7O2dCQUNGOztRQUNGO3lCQUFFLEVBQUU7SUFFSkMsUUFBUUMsR0FBRyxDQUFDVCxVQUFVTyxJQUFJO0lBQzFCLHFCQUNFLDhEQUFDRztrQkFDQyw0RUFBQ0M7c0JBQUdYLFVBQVVPLElBQUk7Ozs7Ozs7Ozs7O0FBR3hCIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGFuc2VsXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxweXRob25fZnJcXGZyb250ZW5kXFxzcmNcXHBhZ2VzXFxpbmRleC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcclxuICBjb25zdCBbdGVzdF9kYXRhLHNldF9kYXRhXSA9IHVzZVN0YXRlKFxyXG4gICAge1widGVzdFwiOlwiZGVmYXVsdFwifVxyXG4gICk7XHJcbiAgXHJcbiAgdXNlRWZmZWN0KCgpPT57XHJcbiAgICBmZXRjaChcIi9hcGkvdGVzdFwiKS50aGVuKChyZXMpPT57XHJcbiAgICAgIHJlcy5qc29uKCkudGhlbigoZGF0YSk9PntcclxuICAgICAgICBzZXRfZGF0YSh7XHJcbiAgICAgICAgICB0ZXN0OmRhdGEudGVzdFxyXG4gICAgICAgIH0pXHJcbiAgICAgIH0pXHJcbiAgICB9KVxyXG4gIH0sW10pXHJcblxyXG4gIGNvbnNvbGUubG9nKHRlc3RfZGF0YS50ZXN0KVxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2PlxyXG4gICAgICA8cD57dGVzdF9kYXRhLnRlc3R9PC9wPlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJIb21lIiwidGVzdF9kYXRhIiwic2V0X2RhdGEiLCJmZXRjaCIsInRoZW4iLCJyZXMiLCJqc29uIiwiZGF0YSIsInRlc3QiLCJjb25zb2xlIiwibG9nIiwiZGl2IiwicCJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(pages-dir-node)/./src/pages/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"(pages-dir-node)/./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _utils_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/utils/header */ \"(pages-dir-node)/./src/utils/header.js\");\n\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils_header__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\pages\\\\index.js\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3NyYy9wYWdlcy9pbmRleC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQXlDO0FBQ0s7QUFDVjtBQUdyQixTQUFTRTtJQUN0QixxQkFDRSw4REFBQ0QscURBQU1BOzs7OztBQUVYIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXGFuc2VsXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxweXRob25fZnJcXGZyb250ZW5kXFxzcmNcXHBhZ2VzXFxpbmRleC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOYXZiYXIgfSBmcm9tICdyZWFjdC1ib290c3RyYXAnO1xyXG5pbXBvcnQgJ2Jvb3RzdHJhcC9kaXN0L2Nzcy9ib290c3RyYXAubWluLmNzcyc7XHJcbmltcG9ydCBIZWFkZXIgZnJvbSAnQC91dGlscy9oZWFkZXInO1xyXG5cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxIZWFkZXIvPlxyXG4gICk7XHJcbn1cclxuIl0sIm5hbWVzIjpbIk5hdmJhciIsIkhlYWRlciIsIkhvbWUiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(pages-dir-node)/./src/pages/index.js\n");
+
+/***/ }),
+
+/***/ "(pages-dir-node)/./src/utils/header.js":
+/*!*****************************!*\
+  !*** ./src/utils/header.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! __barrel_optimize__?names=Nav,Navbar!=!react-bootstrap */ \"(pages-dir-node)/./node_modules/react-bootstrap/esm/Navbar.js\");\n/* harmony import */ var _barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! __barrel_optimize__?names=Nav,Navbar!=!react-bootstrap */ \"(pages-dir-node)/./node_modules/react-bootstrap/esm/Nav.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"(pages-dir-node)/./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction Header() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        className: \"bg-body-tertiary\",\n        \"data-bs-theme\": \"dark\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_2__[\"default\"].Brand, {\n                href: \"/\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                        src: \"/images/favicon.ico\",\n                        width: \"50\",\n                        height: \"50\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                        lineNumber: 9,\n                        columnNumber: 7\n                    }, this),\n                    \"Python en Francais\"\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"default\"].Link, {\n                        href: \"/docs\",\n                        children: \"DOCS\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"default\"].Link, {\n                        href: \"/code\",\n                        children: \"RUN CODE\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                lineNumber: 18,\n                columnNumber: 5\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                className: \"ms-auto\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Nav_Navbar_react_bootstrap__WEBPACK_IMPORTED_MODULE_3__[\"default\"].Link, {\n                    href: \"/credits\",\n                    children: \"CREDITS\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                    lineNumber: 24,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n                lineNumber: 23,\n                columnNumber: 5\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\ansel\\\\OneDrive\\\\Documents\\\\python_fr\\\\frontend\\\\src\\\\utils\\\\header.js\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL3NyYy91dGlscy9oZWFkZXIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBOEM7QUFDQTtBQUcvQixTQUFTRTtJQUN0QixxQkFDRSw4REFBQ0QseUZBQU1BO1FBQUNFLFdBQVU7UUFBbUJDLGlCQUFjOzswQkFDakQsOERBQUNILHlGQUFNQSxDQUFDSSxLQUFLO2dCQUFDQyxNQUFLOztrQ0FDbkIsOERBQUNDO3dCQUVEQyxLQUFJO3dCQUNKQyxPQUFNO3dCQUNOQyxRQUFPOzs7Ozs7b0JBQ0w7Ozs7Ozs7MEJBSUosOERBQUNWLHlGQUFHQTs7a0NBQ0EsOERBQUNBLHlGQUFHQSxDQUFDVyxJQUFJO3dCQUFDTCxNQUFLO2tDQUFROzs7Ozs7a0NBQ3ZCLDhEQUFDTix5RkFBR0EsQ0FBQ1csSUFBSTt3QkFBQ0wsTUFBSztrQ0FBUTs7Ozs7Ozs7Ozs7OzBCQUczQiw4REFBQ04seUZBQUdBO2dCQUFDRyxXQUFVOzBCQUNYLDRFQUFDSCx5RkFBR0EsQ0FBQ1csSUFBSTtvQkFBQ0wsTUFBSzs4QkFBVzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFLbEMiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcYW5zZWxcXE9uZURyaXZlXFxEb2N1bWVudHNcXHB5dGhvbl9mclxcZnJvbnRlbmRcXHNyY1xcdXRpbHNcXGhlYWRlci5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOYXYsIE5hdmJhciB9IGZyb20gJ3JlYWN0LWJvb3RzdHJhcCc7XHJcbmltcG9ydCAnYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzJztcclxuXHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIZWFkZXIoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxOYXZiYXIgY2xhc3NOYW1lPVwiYmctYm9keS10ZXJ0aWFyeVwiIGRhdGEtYnMtdGhlbWU9XCJkYXJrXCI+XHJcbiAgICAgIDxOYXZiYXIuQnJhbmQgaHJlZj1cIi9cIj5cclxuICAgICAgPGltZyBcclxuXHJcbiAgICAgIHNyYz1cIi9pbWFnZXMvZmF2aWNvbi5pY29cIlxyXG4gICAgICB3aWR0aD1cIjUwXCJcclxuICAgICAgaGVpZ2h0PVwiNTBcIlxyXG4gICAgICAvPlxyXG4gICAgICBQeXRob24gZW4gRnJhbmNhaXNcclxuICAgICAgPC9OYXZiYXIuQnJhbmQ+XHJcbiAgICAgIFxyXG4gICAgPE5hdj5cclxuICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIi9kb2NzXCI+RE9DUzwvTmF2Lkxpbms+XHJcbiAgICAgICAgPE5hdi5MaW5rIGhyZWY9XCIvY29kZVwiPlJVTiBDT0RFPC9OYXYuTGluaz5cclxuICAgIDwvTmF2PlxyXG5cclxuICAgIDxOYXYgY2xhc3NOYW1lPSdtcy1hdXRvJz5cclxuICAgICAgICA8TmF2LkxpbmsgaHJlZj1cIi9jcmVkaXRzXCI+Q1JFRElUUzwvTmF2Lkxpbms+XHJcbiAgICA8L05hdj5cclxuXHJcbiAgICA8L05hdmJhcj5cclxuICApO1xyXG59Il0sIm5hbWVzIjpbIk5hdiIsIk5hdmJhciIsIkhlYWRlciIsImNsYXNzTmFtZSIsImRhdGEtYnMtdGhlbWUiLCJCcmFuZCIsImhyZWYiLCJpbWciLCJzcmMiLCJ3aWR0aCIsImhlaWdodCIsIkxpbmsiXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(pages-dir-node)/./src/utils/header.js\n");
+
+/***/ }),
+
+/***/ "@restart/hooks/useBreakpoint":
+/*!***********************************************!*\
+  !*** external "@restart/hooks/useBreakpoint" ***!
+  \***********************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/hooks/useBreakpoint");
+
+/***/ }),
+
+/***/ "@restart/hooks/useEventCallback":
+/*!**************************************************!*\
+  !*** external "@restart/hooks/useEventCallback" ***!
+  \**************************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/hooks/useEventCallback");
+
+/***/ }),
+
+/***/ "@restart/hooks/useMergedRefs":
+/*!***********************************************!*\
+  !*** external "@restart/hooks/useMergedRefs" ***!
+  \***********************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/hooks/useMergedRefs");
+
+/***/ }),
+
+/***/ "@restart/ui/Anchor":
+/*!*************************************!*\
+  !*** external "@restart/ui/Anchor" ***!
+  \*************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/Anchor");
+
+/***/ }),
+
+/***/ "@restart/ui/Modal":
+/*!************************************!*\
+  !*** external "@restart/ui/Modal" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/Modal");
+
+/***/ }),
+
+/***/ "@restart/ui/ModalManager":
+/*!*******************************************!*\
+  !*** external "@restart/ui/ModalManager" ***!
+  \*******************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/ModalManager");
+
+/***/ }),
+
+/***/ "@restart/ui/Nav":
+/*!**********************************!*\
+  !*** external "@restart/ui/Nav" ***!
+  \**********************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/Nav");
+
+/***/ }),
+
+/***/ "@restart/ui/NavItem":
+/*!**************************************!*\
+  !*** external "@restart/ui/NavItem" ***!
+  \**************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/NavItem");
+
+/***/ }),
+
+/***/ "@restart/ui/SelectableContext":
+/*!************************************************!*\
+  !*** external "@restart/ui/SelectableContext" ***!
+  \************************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/SelectableContext");
+
+/***/ }),
+
+/***/ "@restart/ui/utils":
+/*!************************************!*\
+  !*** external "@restart/ui/utils" ***!
+  \************************************/
+/***/ ((module) => {
+
+module.exports = require("@restart/ui/utils");
+
+/***/ }),
+
+/***/ "classnames":
+/*!*****************************!*\
+  !*** external "classnames" ***!
+  \*****************************/
+/***/ ((module) => {
+
+module.exports = require("classnames");
+
+/***/ }),
+
+/***/ "dom-helpers/addClass":
+/*!***************************************!*\
+  !*** external "dom-helpers/addClass" ***!
+  \***************************************/
+/***/ ((module) => {
+
+module.exports = require("dom-helpers/addClass");
+
+/***/ }),
+
+/***/ "dom-helpers/css":
+/*!**********************************!*\
+  !*** external "dom-helpers/css" ***!
+  \**********************************/
+/***/ ((module) => {
+
+module.exports = require("dom-helpers/css");
+
+/***/ }),
+
+/***/ "dom-helpers/querySelectorAll":
+/*!***********************************************!*\
+  !*** external "dom-helpers/querySelectorAll" ***!
+  \***********************************************/
+/***/ ((module) => {
+
+module.exports = require("dom-helpers/querySelectorAll");
+
+/***/ }),
+
+/***/ "dom-helpers/removeClass":
+/*!******************************************!*\
+  !*** external "dom-helpers/removeClass" ***!
+  \******************************************/
+/***/ ((module) => {
+
+module.exports = require("dom-helpers/removeClass");
+
+/***/ }),
+
+/***/ "dom-helpers/transitionEnd":
+/*!********************************************!*\
+  !*** external "dom-helpers/transitionEnd" ***!
+  \********************************************/
+/***/ ((module) => {
+
+module.exports = require("dom-helpers/transitionEnd");
 
 /***/ }),
 
@@ -53,6 +223,16 @@ module.exports = require("path");
 
 /***/ }),
 
+/***/ "prop-types":
+/*!*****************************!*\
+  !*** external "prop-types" ***!
+  \*****************************/
+/***/ ((module) => {
+
+module.exports = require("prop-types");
+
+/***/ }),
+
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -60,6 +240,26 @@ module.exports = require("path");
 /***/ ((module) => {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/***/ ((module) => {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
+/***/ "react-transition-group/Transition":
+/*!****************************************************!*\
+  !*** external "react-transition-group/Transition" ***!
+  \****************************************************/
+/***/ ((module) => {
+
+module.exports = require("react-transition-group/Transition");
 
 /***/ }),
 
@@ -81,6 +281,16 @@ module.exports = require("react/jsx-dev-runtime");
 
 module.exports = require("react/jsx-runtime");
 
+/***/ }),
+
+/***/ "uncontrollable":
+/*!*********************************!*\
+  !*** external "uncontrollable" ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = require("uncontrollable");
+
 /***/ })
 
 };
@@ -90,7 +300,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(pages-dir-node)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fsrc%5Cpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/react-bootstrap","vendor-chunks/bootstrap"], () => (__webpack_exec__("(pages-dir-node)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES&page=%2F&preferredRegion=&absolutePagePath=.%2Fsrc%5Cpages%5Cindex.js&absoluteAppPath=private-next-pages%2F_app&absoluteDocumentPath=private-next-pages%2F_document&middlewareConfigBase64=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
