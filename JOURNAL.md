@@ -30,3 +30,19 @@ so including a way to run custom code online would drastically improve QoL
 
 
   **time: ~2h**
+
+# 7/9/2025
+
+- Just started making everything look 100x better, which took a LOT of time looking at documentation to figure out how to get a certain look, especially with how long its been since I've done web development
+- Ended up adding a header navbar and started adding boxes to input code and for the output, however, I will be focusing on the functionality next rather than looks
+
+![image](https://github.com/user-attachments/assets/9ae865dd-7496-4e38-99b5-28fdd8747748)
+
+![image](https://github.com/user-attachments/assets/ff0b4b17-6725-4b69-892e-1b3ce1e5edf7)
+
+
+- Realized I don't even need to use flask (and could instead just use JS), but this will be restructured during the next session!
+
+**TIME: ~1h45m**
+
+
