@@ -9,3 +9,37 @@ background-color: #EFF6E0;
 .vh25{
     height: 25vh;
 }
+
+.outputText{
+    overflow: auto;
+    text-wrap: nowrap;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--bs-body-font-family);
+}
+
+.inputText{
+    overflow: auto;
+    text-wrap:nowrap;
+    resize: none;
+}
+
+.inputText::placeholder{
+    color: gray;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.placeholderText{
+    color: gray;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    user-select: none;
+}
+
