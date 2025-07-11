@@ -40,9 +40,23 @@ so including a way to run custom code online would drastically improve QoL
 
 ![image](https://github.com/user-attachments/assets/ff0b4b17-6725-4b69-892e-1b3ce1e5edf7)
 
-
 - Realized I don't even need to use flask (and could instead just use JS), but this will be restructured during the next session!
 
 **TIME: ~1h45m**
+
+# 7/10/2025
+
+- Added javascript code that runs after hitting the button with a good basis for expansion later on
+
+<img width="981" height="483" alt="image" src="https://github.com/user-attachments/assets/b01669ef-4b20-4d4a-b9cf-210a2f47e8c2" />
+
+ 
+- found out that a for loop thats really long could cause the page to freeze, so I'll be trying to fix that next session.
+
+<img width="452" height="108" alt="image" src="https://github.com/user-attachments/assets/39ed2fff-bc26-478a-b6de-2d6a44ea223a" />
+
+ **TIME: 45m**
+
+
 
 
