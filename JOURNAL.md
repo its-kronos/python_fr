@@ -82,5 +82,5 @@ so including a way to run custom code online would drastically improve QoL
 <img width="975" height="396" alt="image" src="https://github.com/user-attachments/assets/90dbbeba-1615-46cb-8190-46f6ab312d47" />
 
 
-
+**time: ~1h**
 
