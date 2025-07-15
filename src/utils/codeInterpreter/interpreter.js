@@ -1,4 +1,4 @@
-import expressionHandler from "./expressionHandler";
+import expressionHandler from "./lineHandler";
 import extractLines from "./extractLines";
 
 export default async function interpreter(userCode, setTextOutput, setCodeRunning){
@@ -20,7 +20,13 @@ export default async function interpreter(userCode, setTextOutput, setCodeRunnin
     for (var line of userCode){
         lineNum+=1
 
-        var output = expressionHandler(line,storage,lineNum, "root")
+        var handlerOutput = expressionHandler(line,storage,lineNum, "root")
+        var message = handlerOutput[0]
+        if (message=="err"){
+            // ERROR
+            e = handlerOutput[1]
+        }
+        var output = handlerOutput[1]
 
         textOutput = textOutput.concat(output)
         setTextOutput(textOutput)
