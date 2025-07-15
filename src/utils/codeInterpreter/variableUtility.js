@@ -18,17 +18,17 @@ export function determineTypeFromVal(val){
     var varType
     if (val==="Vrai" || val==="Faux"){
                 varType = "bool"
-            }
-            else if (isNaN(Number(val))){
+    }
+    else if (isNaN(Number(val))){
                 varType = "string"
-            }
-            else{
-                if (val.includes(".")){
-                    varType = "float"
-                }
-                else{
-                    varType = "int"
-                }
-            }
+    }
+    else{
+        if (val%1!==0){
+            varType = "float"
+        }
+        else{
+            varType = "int"
+        }
+    }
     return varType
 }

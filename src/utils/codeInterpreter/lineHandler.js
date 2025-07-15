@@ -1,7 +1,8 @@
+import { simplifyExpression } from "./expressionUtility"
 import {cleanupLine, tokenizeLine} from "./lineUtility"
 import { checkVariableName, determineTypeFromVal } from "./variableUtility"
 
-export default function expressionHandler(line, storage, lineNum, key, tokenized = false){
+export default function lineHandler(line, storage, lineNum, key, tokenized = false){
     //cleanup line
     line = cleanupLine(line)
     //tokenize line
@@ -14,7 +15,7 @@ export default function expressionHandler(line, storage, lineNum, key, tokenized
     if (line[1]==="="){
         var varName = line[0].trim()
         if (checkVariableName(varName)){
-            var val = line[2].trim()
+            var val =  simplifyExpression(line.slice(2), storage)
 
             var varType = determineTypeFromVal(val)
             
@@ -22,16 +23,14 @@ export default function expressionHandler(line, storage, lineNum, key, tokenized
             console.log(storage)
         }
         else{
-            //ERROR
-            console.log("ERR")
-            return ""
+            throw new Error("ERROR ON LINE ".concat(lineNum))
         }
     }
 
 
-    //else{
-    //    //ERROR
-    //    return ["",""]
-    //}
+    else{
+        //ERROR
+        throw new Error("ERROR ON LINE ".concat(lineNum))
+    }
     return ""
 }
