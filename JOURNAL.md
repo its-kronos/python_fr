@@ -71,5 +71,16 @@ so including a way to run custom code online would drastically improve QoL
 
 **TIME: ~3h 30m**
 
+# 7/14/2025
+
+* The bug was indeed not fixed, and doing a string with operators next to eachother would raise an error
+* Decided to scrap all my current code after trying to fix it and start out with variables and a new token system
+
+
+* added variables!!
+
+<img width="975" height="396" alt="image" src="https://github.com/user-attachments/assets/90dbbeba-1615-46cb-8190-46f6ab312d47" />
+
+
 
 
