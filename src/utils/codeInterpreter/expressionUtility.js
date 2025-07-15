@@ -53,7 +53,10 @@ export function simplifyExpression(expression, storage){
 
             else{
                 temp = item
-                escaped = false
+
+                if (quoteCharacter==item){
+                    escaped = false
+                }
             }
         }
 
