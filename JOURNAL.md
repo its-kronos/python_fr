@@ -84,3 +84,20 @@ so including a way to run custom code online would drastically improve QoL
 
 **time: ~1h**
 
+# 7/15/2025
+
+* error handling!
+* 
+<img width="263" height="509" alt="image" src="https://github.com/user-attachments/assets/3042695f-fa1d-4d3d-8405-35875bc5ffe2" />
+
+
+* Took a long while to determine the correct way to handle variables, but now finally have the framework and now I can support variable referencing and \ within strings!
+
+<img width="972" height="408" alt="image" src="https://github.com/user-attachments/assets/95a4b868-0d8f-4bad-abc8-8c8e820df660" />
+
+
+* What I struggled with for this part was overthinking about how I would implement inbuilt functions, such as String(), which led to a lot of time spent wasted. Additionally, the order of the if statements was pretty important in regards to function
+* I'm excited to later be able to add support to basic functions, and then be able to use different operations, such as "a"*50
+
+**TIME: 2h 40m**
+
