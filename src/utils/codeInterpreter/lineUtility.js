@@ -9,6 +9,6 @@ export function cleanupLine(line){
 }
 
 export function tokenizeLine(line){
-    line = line.split(/([+\-*/\=\\'"])/)
+    line = line.split(/([+\-*/\=\\'"\(\)),n])/)
     return line.filter(i=>i!=="")
 }

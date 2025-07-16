@@ -1,5 +1,11 @@
 const inbuiltFunctions = [
-    
+    "chaine",
+    "nombre",
+    "ajouter",
+    "soustraire",
+    "diviser",
+    "multiplier",
+    "imprimer"
 ]
 
 export function checkVariableName(name){
@@ -19,7 +25,7 @@ export function determineTypeFromVal(val){
     if (val==="Vrai" || val==="Faux"){
                 varType = "bool"
     }
-    else if (isNaN(Number(val))){
+    else if (val[0]){
                 varType = "string"
     }
     else{

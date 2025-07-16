@@ -4,6 +4,7 @@ import { checkVariableName, determineTypeFromVal } from "./variableUtility"
 
 export default function lineHandler(line, storage, lineNum, key, tokenized = false){
     //cleanup line
+    console.log(line)
     line = cleanupLine(line)
     //tokenize line
     if (!tokenized){
@@ -25,6 +26,12 @@ export default function lineHandler(line, storage, lineNum, key, tokenized = fal
         else{
             throw new Error("ERROR ON LINE ".concat(lineNum))
         }
+    }
+
+    else if (line[0]=="imprimer"){
+        //console.log(line.slice(2,-1))
+        var val = String(simplifyExpression(line.slice(2,-1), storage))
+        return val.concat("\n")
     }
 
 

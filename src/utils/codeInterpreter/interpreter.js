@@ -5,8 +5,16 @@ export default async function interpreter(userCode, setTextOutput, setCodeRunnin
     const EOL = "\n"
     userCode = extractLines(userCode)
 
+
     var storage = {
-        variables : {},
+        variables : {
+            chaine : ["function","str"],
+            nombre : ["function", "int"],
+            ajouter : ["function", "add"],
+            soustraire : ["function", "subtract"],
+            diviser : ["function", "divide"],
+            multiplier : ["function", "multiply"]
+        },
         loops : {},
     }
 
