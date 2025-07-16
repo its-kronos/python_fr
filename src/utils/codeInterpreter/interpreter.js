@@ -33,6 +33,7 @@ export default async function interpreter(userCode, setTextOutput, setCodeRunnin
         catch(e){
             setTextOutput(e.message)
             setCodeRunning(false)
+            return
             throw new Error(e.message)
         }
         var output = handlerOutput
