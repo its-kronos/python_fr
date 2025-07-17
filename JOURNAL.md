@@ -101,3 +101,43 @@ so including a way to run custom code online would drastically improve QoL
 
 **TIME: 2h 40m**
 
+# 7/16/2025
+
+* i've decided that my current wants for this project exceeds my current skill level, and i've been going about it the wrong way since the beginning (especially with the differences between how my code compiles and how a more professional language would compile its code)
+
+
+
+* Instead, I am tweaking my goal to only include variable references, some built in functions, and printing
+* Adding numbers wouldn't work with a + sign, but instead through an inbuilt function for ease of implementation
+* Also the code will be a bit messy due to how i've coded the program, and I don't see another way to make it better other than to restart (which is something i really don't want to do, especially as my motivation falls from struggling so much)
+
+
+
+* added functions for int() and str()!
+
+<img width="981" height="430" alt="image" src="https://github.com/user-attachments/assets/edc0e539-07b7-434c-ac58-6d818063203d" />
+
+
+
+* added addition and the ability to chain functions!
+
+<img width="975" height="422" alt="image" src="https://github.com/user-attachments/assets/e6f95390-a88c-4118-b9d4-aeeaf2892ce3" />
+
+<img width="983" height="411" alt="image" src="https://github.com/user-attachments/assets/9419a1d7-c3c9-410f-b7ef-53983c3cc12b" />
+
+* added subtraction, just note that negatives must be defined as sub(0,n) instead of -n due to normal operators (5+5) being not implemented
+
+<img width="232" height="117" alt="image" src="https://github.com/user-attachments/assets/c8c650c2-6894-4891-af7b-8fa5ef649b57" />
+
+
+* added division and multiplication, which supports string multiplication
+
+<img width="969" height="392" alt="image" src="https://github.com/user-attachments/assets/c2da7095-3d2d-443b-8c74-76c92fa178fa" />
+
+
+* fixed \n so it'd actually work while printing
+
+<img width="512" height="692" alt="image" src="https://github.com/user-attachments/assets/54926e67-d8af-47aa-a06f-42686779ff4b" />
+
+**time 2h 20m**
+
