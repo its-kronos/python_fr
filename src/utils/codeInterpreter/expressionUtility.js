@@ -251,7 +251,7 @@ export function simplifyExpression(expression, storage){
             }
 
             else{
-                //temp = item
+                throw new Error("Unrecognized character/expression")
             }
         }
 

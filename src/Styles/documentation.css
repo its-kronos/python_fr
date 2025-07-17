@@ -1,0 +1,36 @@
+.accordion-button:not(.collapsed){
+    background-color: #598392;
+    color: #fff;
+}
+
+.accordion-button.collapsed{
+    background-color: #124559;
+    color: #fff;
+}
+
+.accordion{
+    width: 95vw;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.accordion-body{
+    background-color: #84A3A1;
+    color: #000;
+}
+
+.titleText{
+    color: #01161E;
+    margin: auto;
+    width: 100vw;
+    text-align: center;
+    margin: 1.5vh 1vw;
+}
+
+hr{
+    border: none;
+    background-color:#000;
+    height: 3px;
+    width: 99vw;
+    margin: auto;
+}

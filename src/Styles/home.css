@@ -1,0 +1,32 @@
+.titleText{
+    color: #01161E;
+    margin: auto;
+    width: 100vw;
+    text-align: center;
+    margin: 1.5vh 1vw;
+}
+
+.margins{
+    margin-top: 20vh;
+}
+
+.margins2{
+    margin-top: 5vh;
+}
+
+.explanationText{
+    margin-left: auto;
+    margin-right: auto;
+    color: #01161E;
+    width: 90vw;
+    text-align: center;
+}
+
+.redirectButton{
+    margin-left: 45vw;
+    margin-right: 45vw;
+    margin-top: 25vh;
+    width: 10vw;
+    text-align: center;
+    background-color: #124559;
+}

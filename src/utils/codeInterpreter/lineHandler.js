@@ -36,8 +36,13 @@ export default function lineHandler(line, storage, lineNum, key, tokenized = fal
     else if (line[0]=="imprimer"){
         //console.log(line.slice(2,-1))
         if (line[1]=="(" && line[line.length-1]==")"){
-            var val = String(simplifyExpression(line.slice(2,-1), storage))
-            return val.concat("\n")
+            try{
+                var val = String(simplifyExpression(line.slice(2,-1), storage))
+                return val.concat("\n")
+            }
+            catch(e){
+                throw new Error("Error with print statement due to ".concat('"',e.message,'"'," on line ",lineNum))
+            }
         }
         else {
             throw new Error("An error with the print statement on line ".concat(lineNum))

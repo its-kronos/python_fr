@@ -1,0 +1,21 @@
+.creditsText{
+    color: #01161E;
+    margin: auto;
+    width: 100vw;
+    text-align: center;;
+}
+
+.margins{
+    margin-top: 33vh;
+}
+
+.creditsLink{
+    color: #598392;
+    text-decoration:none;
+    text-align: center;
+}
+
+.creditsLink:hover{
+    color:#AEC3B0;
+    text-decoration: underline;
+}

@@ -6,8 +6,30 @@ background-color: #EFF6E0;
     background-color: #01161E;
 }
 
-.vh25{
-    height: 25vh;
+.codeBox{
+    height: 34vh;
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.execute{
+    background-color: #124559;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form-label{
+  display: block;         
+  text-align: center;     
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.25rem;
+  margin-top: 0.6vh;
+  margin-bottom: 0.6vh;
 }
 
 .outputText{
