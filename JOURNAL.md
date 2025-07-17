@@ -9,7 +9,7 @@ Embark on a journey of linguistic challenges to become French (trust) by using t
 
 - Author: An. D. (its_kronos)
 - Creation: 7/8/2025
-- Total Time: - 
+- Total Time: ~15h 45m
 
 # 7/8/2025
 
