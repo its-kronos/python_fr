@@ -139,5 +139,12 @@ so including a way to run custom code online would drastically improve QoL
 
 <img width="512" height="692" alt="image" src="https://github.com/user-attachments/assets/54926e67-d8af-47aa-a06f-42686779ff4b" />
 
-**time 2h 20m**
+**time: 2h 20m**
 
+- Changed up looks for the website, so now it looks more like a finished product (I wish this took a lot less time than it did, but I'm pretty new to bootstrap and havent done web development for a long time
+
+<img width="1007" height="469" alt="image" src="https://github.com/user-attachments/assets/b35ba6b2-16e1-4469-be96-e2ba4bcef3cc" />
+
+<img width="1865" height="826" alt="image" src="https://github.com/user-attachments/assets/1ccb97ee-5de9-43aa-8688-7ea18a983491" />
+
+**time: ~2h**
