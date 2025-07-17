@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Python en Francais
 
-## Getting Started
+<img width="1919" height="893" alt="image" src="https://github.com/user-attachments/assets/12f01c70-cc6a-46c9-9ea1-d7621be2cbbb" />
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- What if France was the country who invented coding? How would this change coding languages today?
+- This is a basic esolang with functionality that includes a few inbuilt functions, operators, and support for variables
+- Website: https://python-en-francais.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Challenges
+- I had to restart my approach to compiling code multiple times due to my lack of understanding of how programming languages parse through code. This not only took a lot of time, but was also pretty demoralizing, which is why I'll probably leave this project in its minimal state as it is.
+- However, this isn't without any lessons. The main thing I learned is that although it can be helpful to focus on one step at a time, research **must** be done to create a plan and determine what those steps are because taking more time to get something correct will almost always be better than taking less time for each attempt but have many tries.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Example of Capabilities
+- Just some code I made C:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1909" height="905" alt="image" src="https://github.com/user-attachments/assets/2c276405-be61-47b6-9ab7-fd41a6afc4a8" />
